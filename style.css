@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', fira-sans, Ubuntu, roboto;
+    text-align: center;
+}
+.flowers-background {
+    background-image: url("flowers.jpg");
+    background-size: cover;
+    font-size: x-large;
+    border-radius: 0.3in;
+    padding: 0.5in;
+    margin-top: 0.2in;
+}
+.main-header {
+    padding: 1in 0px 1in 0px;
+    background: #19252f;
+    color: white;
+    border-radius: 0.3in;
+}
+hr {
+    width: 80%;
+    height: 0.1in;
+    background: black;
+    border-radius: 0.2in;
+}
