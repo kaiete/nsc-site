@@ -9,6 +9,16 @@
     <style id="il"></style>
     <!--End InstaLoadr-->
     <script src="instaloadr.js"></script>
+    <script>
+        async function signup() {
+            let x = prompt("Select a username:")
+            if (x != null) {
+                let y = await fetch("https://nsc-signin.kaiete.workers.dev",{method: "POST", headers: {"auth": "savenature"}, body: x})
+                let response = await y.text()
+                alert("Signed in with username " + x + ". Debugging info: " + response)
+            }
+        }
+    </script>
 </head>
 <body>
     <h1 class="main-header">Welcome to the Nature Savers Club!</h1>
